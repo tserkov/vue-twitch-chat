@@ -35,7 +35,7 @@
     },
     computed: {
       src() {
-        return `//www.twitch.tv/${this.channel}/chat`;
+        return `https://www.twitch.tv/${this.channel}/chat`;
       },
     },
   };
